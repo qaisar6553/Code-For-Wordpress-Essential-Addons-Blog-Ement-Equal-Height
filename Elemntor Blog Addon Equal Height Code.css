@@ -1,0 +1,29 @@
+.blog-template .eael-grid-post-excerpt a{
+    width: fit-content;
+}
+.blog-template .eael-post-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.blog-template article.eael-grid-post.eael-post-grid-column
+{
+    width: 100% !important
+}
+.eael-grid-post-holder
+{
+    height: 100%;
+}
+.eael-grid-post-holder-inner
+{
+    display: grid;
+    display: grid;
+  grid-template-columns: auto;
+}
+@media only screen and (max-width: 600px) {
+.blog-template .eael-post-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+}
